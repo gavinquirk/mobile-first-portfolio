@@ -1,0 +1,5 @@
+.mern-display {
+  display: flex;
+
+  justify-content: space-around;
+}
