@@ -1,0 +1,13 @@
+.NavigationItem {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+.NavigationItem:hover {
+  background-color: blue;
+  color: #fff;
+}
+
+.active {
+  background-color: red;
+}
