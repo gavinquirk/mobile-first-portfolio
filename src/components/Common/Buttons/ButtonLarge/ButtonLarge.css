@@ -1,0 +1,26 @@
+.btn-large {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+
+  background-color: dodgerblue;
+  color: #fff;
+
+  border: none;
+  border-radius: 10px;
+  outline: none;
+
+  transition: all 0.2s;
+}
+
+.btn-large:hover {
+  cursor: pointer;
+
+  transform: scale(1.1) translateY(-5px);
+  box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.btn-large:active {
+  transform: scale(1.05) translateY(-1px);
+  box-shadow: none;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}

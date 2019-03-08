@@ -1,4 +1,42 @@
 .Lander {
-  height: 100vh;
+  height: 92vh;
+
+  color: #fff;
+
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.Lander h1 {
+  font-size: 5rem;
+}
+
+.Lander h2 {
+  font-size: 4rem;
+}
+
+.side-a {
+  grid-column: 1/ 5;
+
   background-color: dodgerblue;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.side-b {
+  grid-column: 5/9;
+  background-color: gold;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.side-b h2 {
+  padding-bottom: 3rem;
 }
