@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 
 import NavBar from './components/Navigation/NavBar';
 import Lander from './components/Lander/Lander';
-import MERNdisplay from './components/MERNdisplay/MERNdisplay';
+import About from './components/About/About';
+import MERN from './components/MERN/MERN';
 
 import './App.css';
 
@@ -12,7 +13,8 @@ class App extends Component {
       <div className='App'>
         <NavBar />
         <Lander />
-        <MERNdisplay />
+        <About />
+        <MERN />
         <section id='section-a'>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae

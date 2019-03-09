@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 import ButtonLarge from '../Common/Buttons/ButtonLarge/ButtonLarge';
 
@@ -16,7 +17,9 @@ class Lander extends Component {
         </div>
         <div className='side-b'>
           <h2>MERN Stack Applications</h2>
-          <ButtonLarge>Why MERN?</ButtonLarge>
+          <Link to='MERN' spy={true} smooth={true} offset={-50} duration={500}>
+            <ButtonLarge>Why MERN?</ButtonLarge>
+          </Link>
         </div>
       </div>
     );

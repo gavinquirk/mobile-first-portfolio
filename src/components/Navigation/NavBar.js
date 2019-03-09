@@ -4,6 +4,8 @@ import NavigationItems from './NavigationItems';
 
 import './NavBar.css';
 
+// TODO: Make navbar transparent until scrolled down
+
 const NavBar = props => (
   <header className='header'>
     <nav className='NavBar navbar-fixed-top'>
