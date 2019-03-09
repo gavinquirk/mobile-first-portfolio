@@ -1,11 +1,16 @@
 .NavigationItem {
   padding: 1rem 2rem;
   border-radius: 10px;
+  margin: 0 1rem;
+
+  transition: all 0.2s;
 }
 
 .NavigationItem:hover {
-  background-color: blue;
+  background-color: forestgreen;
   color: #fff;
+  cursor: pointer;
+  transform: scale(1.1) translateY(-5px);
 }
 
 .active {

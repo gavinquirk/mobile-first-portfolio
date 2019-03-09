@@ -14,7 +14,7 @@ const navigationItem = props => (
       offset={-70}
       duration={500}
     >
-      {props.children}
+      <span style={{ color: props.navLinkColor }}>{props.children}</span>
     </Link>
   </li>
 );

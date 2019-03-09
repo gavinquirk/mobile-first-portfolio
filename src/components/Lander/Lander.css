@@ -1,5 +1,5 @@
 .Lander {
-  height: 92vh;
+  height: 95vh;
 
   color: #fff;
 
@@ -8,7 +8,7 @@
 }
 
 .Lander h1 {
-  font-size: 5rem;
+  font-size: 6rem;
 }
 
 .Lander h2 {

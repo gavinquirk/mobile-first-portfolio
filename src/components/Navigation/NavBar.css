@@ -1,12 +1,14 @@
 .NavBar {
   font-size: 1.6rem;
   height: 5rem;
-  background-color: #fff;
+  /* background-color: green; */
 
   display: flex;
 
   justify-content: space-between;
   align-items: center;
+
+  transition: all 0.2s;
 }
 
 .navbar-fixed-top {
