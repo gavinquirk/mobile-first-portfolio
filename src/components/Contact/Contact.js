@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-import './About.css';
+import './Contact.css';
 
-class About extends Component {
+class Contact extends Component {
   render() {
     return (
-      <div className='About'>
-        {/* <h1>This is the about section</h1> */}
+      <div className='Contact'>
+        {/* <h1>This is the Contact section</h1> */}
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
           facere quam sunt architecto eius distinctio, mollitia accusamus
@@ -21,4 +21,4 @@ class About extends Component {
   }
 }
 
-export default About;
+export default Contact;

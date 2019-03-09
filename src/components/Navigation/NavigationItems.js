@@ -8,11 +8,17 @@ const navigationItems = props => (
     <NavigationItem to='Lander' navLinkColor={props.navLinkColor}>
       Home
     </NavigationItem>
-    <NavigationItem to='section-a' navLinkColor={props.navLinkColor}>
-      Section A
+    <NavigationItem to='About' navLinkColor={props.navLinkColor}>
+      About
     </NavigationItem>
-    <NavigationItem to='section-b' navLinkColor={props.navLinkColor}>
-      Section B
+    <NavigationItem to='MERN' navLinkColor={props.navLinkColor}>
+      MERN
+    </NavigationItem>
+    <NavigationItem to='Portfolio' navLinkColor={props.navLinkColor}>
+      Portfolio
+    </NavigationItem>
+    <NavigationItem to='Contact' navLinkColor={props.navLinkColor}>
+      Contact
     </NavigationItem>
   </ul>
 );

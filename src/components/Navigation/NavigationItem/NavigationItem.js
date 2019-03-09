@@ -11,7 +11,7 @@ const navigationItem = props => (
       activeClass='active'
       spy={true}
       smooth={true}
-      offset={-70}
+      offset={-50}
       duration={500}
     >
       <span style={{ color: props.navLinkColor }}>{props.children}</span>
