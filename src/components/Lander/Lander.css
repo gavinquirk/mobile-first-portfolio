@@ -16,14 +16,35 @@
 }
 
 .side-a {
+  max-height: 100vh;
+
   grid-column: 1/ 5;
 
   background-color: dodgerblue;
 
-  display: flex;
+  /* display: flex;
+  flex-direction: column;
 
   align-items: center;
+  justify-content: center; */
+
+  display: grid;
+
+  grid-template-columns: repeat(8, 1fr);
+  /* grid-template-rows: repeat(7, 1fr) minmax(50px, 200px); */
+  /* grid-template-rows: repeat(7, 1fr) minmax(10px, auto); */
+  grid-template-rows: repeat(8, 1fr);
+}
+
+.intro {
+  grid-column: 2/8;
+  grid-row: 2/8;
+
+  display: flex;
+  flex-direction: column;
+
   justify-content: center;
+  align-items: center;
 }
 
 .side-b {
@@ -39,4 +60,22 @@
 
 .side-b h2 {
   padding-bottom: 3rem;
+}
+
+.certificates {
+  background-color: dodgerblue;
+
+  grid-row: 8;
+  grid-column: 1/ -1;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 5rem;
+}
+
+.certificates img {
+  width: 20%;
+  height: auto;
 }
