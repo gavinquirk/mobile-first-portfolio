@@ -1,7 +1,18 @@
+/* Global Vars */
 :root {
+  /* Font Sizes */
   --primary-font-size: 1.6rem;
+  --fontsize-heading-1: 6rem;
+  --fontsize-heading-2: 4rem;
+
+  /* Colors */
+  --primary-color-red: crimson;
+  --primary-color-blue: dodgerblue;
+  --primary-color-yellow: gold;
+  --primary-color-green: forestgreen;
 }
 
+/* Reset */
 *,
 *::after,
 *::before {
@@ -25,6 +36,10 @@ body {
   box-sizing: border-box;
   height: 100vh;
   /* overflow: hidden; */
+
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 300;
 }
 
 code {
@@ -32,12 +47,20 @@ code {
     monospace;
 }
 
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  padding: 0;
-} */
+/* Global Styles */
+h1 {
+  font-size: 6rem;
+  font-family: alternate-gothic-no-3-d, sans-serif;
+  padding-bottom: 2rem;
+}
+
+h2 {
+  font-size: 4rem;
+  font-family: alternate-gothic-no-3-d, sans-serif;
+  padding-bottom: 2rem;
+}
+
+.color-underline {
+  text-decoration: underline;
+  text-decoration-color: var(--primary-color-blue);
+}

@@ -6,6 +6,10 @@
   transition: all 0.2s;
 }
 
+.NavigationItem span {
+  text-transform: uppercase;
+}
+
 .NavigationItem:hover {
   background-color: forestgreen;
   color: #fff;

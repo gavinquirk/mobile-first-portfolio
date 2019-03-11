@@ -9,13 +9,13 @@
   grid-template-columns: repeat(8, 1fr);
 }
 
-.Lander h1 {
+/* .Lander h1 {
   font-size: 6rem;
 }
 
 .Lander h2 {
   font-size: 4rem;
-}
+} */
 
 .side-a {
   max-height: 100vh;

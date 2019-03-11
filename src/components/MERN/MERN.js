@@ -8,9 +8,10 @@ class MERN extends Component {
   render() {
     return (
       <div className='MERN'>
+        <h1 className='color-underline'>Why use the MERN stack?</h1>
+
         <MERNdisplay />
         <div className='mern-info'>
-          <h1>Why use the MERN stack?</h1>
           <p>
             Express, React, and Node are all JavaScript frameworks. This means
             that when using MERN, full-stack applications can be built in only
