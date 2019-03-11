@@ -1,5 +1,88 @@
+/* autoprefixer grid: autoplace */
+
 .Contact {
-  height: 100vh;
+  height: 95vh;
 
   font-size: 1.6rem;
+
+  /* display: grid;
+
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr); */
+
+  display: flex;
+}
+
+.contact-section {
+  text-align: center;
+}
+
+.contact-section h1 {
+  padding-bottom: 2rem;
+}
+
+.contact-email {
+  height: 100%;
+  width: 50%;
+
+  background-color: aliceblue;
+}
+
+.contact-email a {
+  text-decoration: none;
+  color: dodgerblue;
+  transition: all 0.3s;
+}
+
+.contact-email a:hover {
+  text-decoration: underline;
+  color: blue;
+  transform: scale(1.1);
+}
+
+#email-icon {
+  font-size: 2vw;
+  color: crimson;
+  padding: 3rem;
+}
+
+.contact-social {
+  height: 100%;
+  width: 50%;
+
+  background-color: rgb(240, 255, 240);
+}
+
+#social-icon {
+  font-size: 2vw;
+  color: forestgreen;
+  padding: 3rem;
+}
+
+.sm-icons {
+  display: flex;
+  justify-content: space-evenly;
+
+  font-size: 2vw;
+}
+
+.sm-icons .fab {
+  color: dodgerblue;
+  cursor: pointer;
+
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.sm-icons .fab:hover {
+  color: blue;
+
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
 }
