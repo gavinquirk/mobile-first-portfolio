@@ -1,12 +1,25 @@
 import React, { Component } from 'react';
 
-// import classes from './FlipCard.css';
-
 import './FlipCard.css';
 
 class FlipCard extends Component {
   render() {
-    console.log(this.props.headerColor);
+    // Map through content prop array to create bullet points
+    const cardContent = this.props.content.map((bp, i) => {
+      return (
+        <li key={i} style={{ padding: '3px' }}>
+          <i
+            style={{
+              color: this.props.color,
+              marginRight: '1rem'
+            }}
+            className='fas fa-circle'
+          />
+          {bp}
+        </li>
+      );
+    });
+
     return (
       <div className='flip-card'>
         <div className='flip-card-inner'>
@@ -20,7 +33,7 @@ class FlipCard extends Component {
             <h1 style={{ backgroundColor: this.props.color }}>
               {this.props.heading}
             </h1>
-            <p className='flip-card-content'>{this.props.content}</p>
+            <ul className='flip-card-content'>{cardContent}</ul>
           </div>
         </div>
       </div>

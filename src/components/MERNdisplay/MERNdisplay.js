@@ -12,25 +12,46 @@ class MERNdisplay extends Component {
           character='M'
           color='dodgerblue'
           heading='MongoDB'
-          content='Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorem quas dicta perferendis qui nulla maxime, ducimus et assumenda impedit numquam voluptas sequi perspiciatis porro cupiditate id quis, facere deleniti!'
+          content={[
+            'Flexible',
+            'Schema-less Structure',
+            'Document Oriented Storage',
+            'Support'
+          ]}
         />
         <FlipCard
           character='E'
           color='gold'
           heading='Express'
-          content='Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorem quas dicta perferendis qui nulla maxime, ducimus et assumenda impedit numquam voluptas sequi perspiciatis porro cupiditate id quis, facere deleniti!'
+          content={[
+            'Large Web Community',
+            'Matured Framework',
+            'Easy to Customize',
+            'Create REST APIs'
+          ]}
         />
         <FlipCard
           character='R'
           color='crimson'
           heading='React'
-          content='Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorem quas dicta perferendis qui nulla maxime, ducimus et assumenda impedit numquam voluptas sequi perspiciatis porro cupiditate id quis, facere deleniti!'
+          content={[
+            'Fast Rendering',
+            'Stable Code',
+            'SEO Friendly',
+            'Strong Community',
+            'Used by Both Large and Small Companies'
+          ]}
         />
         <FlipCard
           character='N'
           color='forestgreen'
           heading='Node'
-          content='Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorem quas dicta perferendis qui nulla maxime, ducimus et assumenda impedit numquam voluptas sequi perspiciatis porro cupiditate id quis, facere deleniti!'
+          content={[
+            'Quick Speeds',
+            'Works Well with MongoDB',
+            'Open Source',
+            'Access to NPM'
+          ]}
         />
       </div>
     );

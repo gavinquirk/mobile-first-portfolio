@@ -61,5 +61,7 @@
 }
 
 .flip-card-content {
+  text-align: left;
+  list-style: none;
   padding: 1rem;
 }
