@@ -1,5 +1,24 @@
 .About {
   height: 95vh;
 
-  font-size: 1.6rem;
+  padding: 5rem;
+
+  font-size: var(--primary-font-size);
+
+  display: grid;
+
+  grid-template-columns: repeat(2, 50%);
+}
+
+.about-a {
+  grid-column: 1;
+}
+
+.about-b {
+  grid-column: 2;
+}
+
+.About img {
+  border-radius: 50%;
+  width: 500px;
 }
