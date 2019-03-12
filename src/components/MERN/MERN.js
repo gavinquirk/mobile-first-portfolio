@@ -12,11 +12,25 @@ class MERN extends Component {
 
         <MERNdisplay />
         <div className='mern-info'>
-          <p>
-            Express, React, and Node are all JavaScript frameworks. This means
-            that when using MERN, full-stack applications can be built in only
-            one language.
-          </p>
+          <div className='jsfriendly'>
+            <h2 className='color-underline'>JavaScript Friendly</h2>
+            <p>
+              Express, React, and Node all use JavaScript. Unlike other
+              applications which use a combination of languages on the Front and
+              Back ends, the MERN stack allows for developers to create their
+              applications in only one language. This keeps things simple, fast
+              and stable.
+            </p>
+          </div>
+          <div className='other'>
+            <h2 className='color-underline'>JavaScript Friendly</h2>
+            <p>
+              Express, React, and Node all use JavaScript. Unlike other
+              applications which use a combination of languages on the Front and
+              Back ends, the MERN stack allows for developers to create their
+              applications in only one language.
+            </p>
+          </div>
         </div>
       </div>
     );

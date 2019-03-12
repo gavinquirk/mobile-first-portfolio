@@ -51,13 +51,13 @@ code {
 h1 {
   font-size: 6rem;
   font-family: alternate-gothic-no-3-d, sans-serif;
-  padding-bottom: 2rem;
+  padding: 1rem 2rem;
 }
 
 h2 {
   font-size: 4rem;
   font-family: alternate-gothic-no-3-d, sans-serif;
-  padding-bottom: 2rem;
+  padding: 1rem 2rem;
 }
 
 .color-underline {

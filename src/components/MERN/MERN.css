@@ -1,5 +1,27 @@
 .MERN {
   height: 95vh;
 
-  font-size: 1.6rem;
+  padding: 5rem;
+
+  font-size: var(--primary-font-size);
+}
+
+.mern-info {
+  display: flex;
+
+  justify-items: center;
+  justify-content: center;
+}
+
+/* .jsfriendly {
+  width: 100%;
+} */
+
+.mern-info h2 {
+  text-align: center;
+}
+
+.mern-info p {
+  padding: 0 5rem;
+  line-height: 1.3;
 }
